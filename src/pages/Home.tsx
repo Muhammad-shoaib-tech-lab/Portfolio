@@ -4,7 +4,7 @@ import { HomeMotion } from '../common/motion/Home';
 import { Link } from 'react-router-dom';
 
 export const Home = () => {
-  const { description, resume, wrapImg, image } = HomeMotion;
+  const { description, wrapImg, image } = HomeMotion;
   return (
     <section className="flex flex-col lg:flex-row h-full p-6 items-center min-h-[70vh]">
       <motion.div
